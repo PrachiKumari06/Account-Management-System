@@ -32,14 +32,23 @@ catch(err){
  }
  return(
 
-  <div>
+ <div className="page">
 
-   <h2>Send Money</h2>
+   <form className="card" onSubmit={handleSubmit}>
 
-   <form onSubmit={handleSubmit}>
+    <h2 className="title">Send Money</h2>
 
-    <input name="receiverEmail" placeholder="Receiver Email" onChange={handleChange}/>
-    <input name="amount" placeholder="Amount" onChange={handleChange}/>
+    <input
+      name="receiverEmail"
+      placeholder="Receiver Email"
+      onChange={handleChange}
+    />
+
+    <input
+      name="amount"
+      placeholder="Amount"
+      onChange={handleChange}
+    />
 
     <button>Send</button>
 

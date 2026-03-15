@@ -9,7 +9,7 @@ body{
   justify-content: space-between;
   align-items: center;
   padding: 15px 30px;
-  background-color: #c2410c;
+  background-color: #0f172a;
 }
 
 .nav-links {
@@ -29,7 +29,7 @@ body{
 }
 
 .logout-btn {
-  background-color: gray;
+  background-color: orange;
   border: none;
   padding: 6px 12px;
   color: white;
@@ -74,7 +74,7 @@ body{
 /* button */
 .card button {
   padding: 8px;
-  background-color: #2563eb;
+  background-color: orange;
   border: none;
   color: white;
   border-radius: 4px;
@@ -125,7 +125,7 @@ body{
   display: block;
   margin: 10px 0;
   padding: 8px;
-  background: #2563eb;
+  background: orange;
   color: white;
   text-decoration: none;
   border-radius: 4px;
